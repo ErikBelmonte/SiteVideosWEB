@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+/* BODY */
+body{
+    background-color: rgb(161, 160, 160);
+    font-family: 'Roboto Slab', serif;
+}
+
+.info{
+    display: block;
+    margin: 30px auto 0;
+    max-width: 100%;
+    margin-top: 20px;
+    padding: 22px;
+    text-align: center;
+}
+
+.info h1{
+    display: block;
+    margin: 30px auto 0;
+    max-width: 100%;
+    width: 500px;
+    border: 2px solid black;
+    color: rgb(18, 19, 39);
+}
+
+.info h3{
+    color: #fff;
+    margin: 10px 0px 10px 0px;
+}
+
+.info img{
+    display: block;
+    margin: 30px auto 0;
+    width: 600px;
+    max-width: 100%;
+    border-radius: 50%;
+    border: 4px solid black;
+}
+
+@media screen and (max-width: 767px) {
+    .info{
+        width: 300px;
+    }
+    .info h1{
+        width: 300px;
+    }
+
+    .info img{
+        width: 400px; 
+    }
+}
+
+/* END BODY */
+/* HEADER */
+
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 42px;
+    border-bottom: 2px solid black;
+    background-color: rgb(18, 19, 39);
+}
+
+@media screen and (max-width: 767px) {
+    .main-nav{
+        width: 100%;
+    }
+}
+
+.links{
+    margin-right: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+    .links{
+        justify-content: center;
+        margin-left: 45px;
+    }
+}
+
+.links a{
+    color: white;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 10px;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+.links a:hover{
+    color: rgb(15, 19, 105);
+    transition: color 200ms;
+}
+
+.name-header{
+    color: white;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    .name-header{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+
+/* END HEADER */
+/* FOOTER */
+
+.footer{
+    padding: 32px;
+    margin-top: 156px;
+    background-color: rgb(18, 19, 39);
+    border-top: 2px solid black;
+    column-width: 200px; 
+    column-count: 3;    
+}
+
+.ende{
+    text-align: left;
+}
+
+.ende h4{
+    color: #fff;
+}
+
+.ende h5{
+    color: rgb(80, 77, 77);
+}
+
+.social{
+    text-align: center;
+}
+
+.social h4{
+    color: #fff;
+}
+
+.social ul li {
+    list-style: none;
+}
+
+.social ul li a{
+    color: rgb(80, 77, 77);
+    text-decoration: none;
+}
+
+.cont{
+    text-align: right;
+}
+
+.cont h4{
+    color: #fff;
+}
+
+@media screen and (max-width: 767px){
+    .ende{
+        text-align: center;
+    }
+    .social{
+        margin-top: 10px;
+        text-align: center;
+    }
+    .cont{
+        margin-top: 10px;
+        text-align: center;
+    }
+}
